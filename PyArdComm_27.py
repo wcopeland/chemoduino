@@ -46,8 +46,8 @@ while(current_port not in ListSerialPorts()):
 
 
 
-#ser = serial.Serial(current_port, 9600)
-ser = serial.Serial('COM11', 9600)
+ser = serial.Serial(current_port, 9600)
+#ser = serial.Serial('COM11', 9600)
 ser.setDTR()
 ser.setRTS()
 
