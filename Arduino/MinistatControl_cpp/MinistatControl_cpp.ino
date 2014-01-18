@@ -271,64 +271,94 @@ void loop()
       }
       else if(action == "-get")
       {
-        Serial.print("Pump ");
-        Serial.print(pumpId);
-
         if(args[i] == "-rpin")
         {
-          Serial.print(" - Read pin: ");
-          Serial.println(Chemostats[pumpId].GetReadPin());
+          Serial.print("Read pin is set to ");
+          Serial.print(Chemostats[pumpId].GetReadPin());
+          Serial.print(" [Ministat ");
+          Serial.print(pumpId);
+          Serial.println(" ]");
           break;
         }
         else if(args[i] == "-wpin")
         {
-          Serial.print(" - Write pin: ");
-          Serial.println(Chemostats[pumpId].GetWritePin());
+          Serial.print("Write pin is set to ");
+          Serial.print(Chemostats[pumpId].GetWritePin());
+          Serial.print(" [Ministat ");
+          Serial.print(pumpId);
+          Serial.println(" ]");
         }
         else if(args[i] == "-power")
         {
-          Serial.print(" - Power: ");
-          Serial.println(Chemostats[pumpId].GetPower());
+          Serial.print("Pin power is set to ");
+          Serial.print(Chemostats[pumpId].GetPower());
+          Serial.print(" [Ministat ");
+          Serial.print(pumpId);
+          Serial.println(" ]");
         }
         else if(args[i] == "-pwid")
         {
-          Serial.print(" - Pulse Width: ");
-          Serial.println(Chemostats[pumpId].GetPulseWidth());
+          Serial.print("Pulse width is set to ");
+          Serial.print(Chemostats[pumpId].GetPulseWidth());
+          Serial.print(" [Ministat ");
+          Serial.print(pumpId);
+          Serial.println(" ]");
         }
         else if(args[i] == "-pfreq")
         {
-          Serial.print(" - Pulse Frequency: ");
-          Serial.println(Chemostats[pumpId].GetPulseFrequency());
+          Serial.print("Pulse frequency is set to ");
+          Serial.print(Chemostats[pumpId].GetPulseFrequency());
+          Serial.print(" [Ministat ");
+          Serial.print(pumpId);
+          Serial.println(" ]");
         }
         else if(args[i] == "-pvol")
         {
-          Serial.print(" - Pulse Volume: ");
-          Serial.println(Chemostats[pumpId].GetPulseVolume());
+                    Serial.print("Pulse volume is set to ");
+          Serial.print(Chemostats[pumpId].GetPulseVolume());
+          Serial.print(" [Ministat ");
+          Serial.print(pumpId);
+          Serial.println(" ]");
         }
         else if(args[i] == "-prep")
         {
-          Serial.print(" - Pulse Repeat: ");
-          Serial.println(Chemostats[pumpId].GetPulseRepeat());
+          Serial.print("Pulse repetition is set to ");
+          Serial.print(Chemostats[pumpId].GetPulseRepeat());
+          Serial.print(" [Ministat ");
+          Serial.print(pumpId);
+          Serial.println(" ]");
         }
         else if(args[i] == "-rvol")
         {
-          Serial.print(" - Reactor Volume: ");
-          Serial.println(Chemostats[pumpId].GetReactorVolume());
+          Serial.print("Reactor volume is set to ");
+          Serial.print(Chemostats[pumpId].GetReactorVolume());
+          Serial.print(" [Ministat ");
+          Serial.print(pumpId);
+          Serial.println(" ]");
         }
         else if(args[i] == "-rmass")
         {
-          Serial.print(" - Reactor Mass: ");
-          Serial.println(Chemostats[pumpId].GetReactorMass());
+          Serial.print("Reactor mass is set to ");
+          Serial.print(Chemostats[pumpId].GetReactorMass());
+          Serial.print(" [Ministat ");
+          Serial.print(pumpId);
+          Serial.println(" ]");
         }
         else if(args[i] == "-rden")
         {
-          Serial.print(" - Reactor Density: ");
-          Serial.println(Chemostats[pumpId].GetReactorDensity());
+          Serial.print("Reactor density is set to ");
+          Serial.print(Chemostats[pumpId].GetReactorDensity());
+          Serial.print(" [Ministat ");
+          Serial.print(pumpId);
+          Serial.println(" ]");
         }
         else if(args[i] == "-rdil")
         {
-          Serial.print(" - Reactor Dilution: ");
-          Serial.println(Chemostats[pumpId].GetReactorDilutionRate());
+          Serial.print("Reactor dilution rate is set to ");
+          Serial.print(Chemostats[pumpId].GetReactorDilutionRate());
+          Serial.print(" [Ministat ");
+          Serial.print(pumpId);
+          Serial.println(" ]");
         }
       }
       else if(action == "-start")
