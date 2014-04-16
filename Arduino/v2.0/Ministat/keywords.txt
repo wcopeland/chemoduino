@@ -1,0 +1,32 @@
+Ministat	KEYWORD1
+Init	KEYWORD2
+SetReadPin	KEYWORD2
+GetReadPin	KEYWORD2
+SetWritePin	KEYWORD2
+GetWritePin	KEYWORD2
+SetPower	KEYWORD2
+GetPower	KEYWORD2
+SetPulseWidth	KEYWORD2
+GetPulseWidth	KEYWORD2
+SetPulseFrequency	KEYWORD2
+GetPulseFrequency	KEYWORD2
+SetPulseVolume	KEYWORD2
+GetPulseVolume	KEYWORD2
+SetPulseRepeat	KEYWORD2
+GetPulseRepeat	KEYWORD2
+
+SetReactorVolume	KEYWORD2
+GetReactorvolume	KEYWORD2
+SetReactorMass	KEYWORD2
+GetReactorMass	KEYWORD2
+SetReactorDensity	KEYWORD2
+GetReactorDensity	KEYWORD2
+SetReactorDilutionRate	KEYWORD2
+GetReactorDilutionRate	KEYWORD2
+
+ContinuousPump	KEYWORD2
+PulsePump	KEYWORD2
+AutomatePump	KEYWORD2
+StopPump	KEYWORD2
+ActivatePump	KEYWORD2
+DeactivatePump	KEYWORD2

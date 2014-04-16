@@ -15,32 +15,6 @@ void setup()
   for(int i=0; i<NUMBER_OF_CHEMOSTATS; i++)
   {
     Chemostats[i].Init();
-    
-    /*
-    if(i==0)
-    {
-      Chemostats[i].SetWritePin(13);
-    }
-    else if(i==1)
-    {
-      Chemostats[i].SetWritePin(11);
-    }
-    else if(i==2)
-    {
-      Chemostats[i].SetWritePin(10);
-    }
-    else if(i==3)
-    {
-      Chemostats[i].SetWritePin(9);
-    }
-    else if(i==4)
-    {
-      Chemostats[i].SetWritePin(6);
-    }
-    else if(i==5)
-    {
-      Chemostats[i].SetWritePin(5);
-    }*/
   }
 }
 
@@ -113,73 +87,61 @@ void loop()
     {
       if(action == "-set")
       {
-        Serial.println("Value has beem set.");
-        
+        Serial.println("Value set.");
         if(args[i] == "-rpin")
         {
           int val = args[i+1].toInt();
           Chemostats[pumpId].SetReadPin(val);
-          //Serial.println("Read pin has been set.");
         }
         else if(args[i] == "-wpin")
         {
           int val = args[i+1].toInt();
           Chemostats[pumpId].SetWritePin(val);
-          //Serial.println("Write pin has been set.");
         }
         else if(args[i] == "-power")
         {
           int val = args[i+1].toInt();
           Chemostats[pumpId].SetPower(val);
-          //Serial.println("Power has been set.");
         }        
         else if(args[i] == "-pwid")
         {
           float val = args[i+1].toFloat();
           Chemostats[pumpId].SetPulseWidth(val);
-          //Serial.println("Pulse width has been set.");
         }
         else if(args[i] == "-pfreq")
         {
           float val = args[i+1].toFloat();
           Chemostats[pumpId].SetPulseFrequency(val);
-          //Serial.println("Pulse frequency has been set.");
         }
         else if(args[i] == "-pvol")
         {
           float val = args[i+1].toFloat();
           Chemostats[pumpId].SetPulseVolume(val);
-          //Serial.println("Pulse volume has been set.");
         }
         else if(args[i] == "-prep")
         {
           int val = args[i+1].toInt();
           Chemostats[pumpId].SetPulseRepeat(val);
-          //Serial.println("Pulse repeat has been set.");
         }
         else if(args[i] == "-rvol")
         {
           float val = args[i+1].toFloat();
           Chemostats[pumpId].SetReactorVolume(val);
-          //Serial.println("Reactor volume has been set.");
         }
         else if(args[i] == "-rmass")
         {
           float val = args[i+1].toFloat();
           Chemostats[pumpId].SetReactorMass(val);
-          //Serial.println("Reactor mass has been set.");
         }
         else if(args[i] == "-rden")
         {
           float val = args[i+1].toFloat();
           Chemostats[pumpId].SetReactorDensity(val);
-          //Serial.println("Reactor volume has been set.");
         }
         else if(args[i] == "-rdil")
         {
           float val = args[i+1].toFloat();
           Chemostats[pumpId].SetReactorDilutionRate(val);
-          //Serial.println("Reactor dilution rate has been set.");
         }
         else
         {

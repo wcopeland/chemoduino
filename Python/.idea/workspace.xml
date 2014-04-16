@@ -26,7 +26,7 @@
       <file leaf-file-name="PyArdComm_27.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PyArdComm_27.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="101" column="24" selection-start="2800" selection-end="2800" vertical-scroll-proportion="0.33704737" vertical-offset="1475" max-vertical-offset="2805">
+            <state line="52" column="24" selection-start="1312" selection-end="1312" vertical-scroll-proportion="0.4735376" vertical-offset="544" max-vertical-offset="2805">
               <folding>
                 <element signature="e#25#38#0" expanded="true" />
               </folding>
@@ -46,6 +46,7 @@
       <list>
         <option value="$PROJECT_DIR$/default_init.txt" />
         <option value="$PROJECT_DIR$/PyArdComm_27.py" />
+        <option value="$PROJECT_DIR$/test.py" />
       </list>
     </option>
   </component>
@@ -119,7 +120,7 @@
       </console-settings>
     </option>
   </component>
-  <component name="RunManager" selected="Python.PyArdComm_27">
+  <component name="RunManager" selected="Python.test">
     <configuration default="false" name="PyArdComm_27" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -137,6 +138,24 @@
       <RunnerSettings RunnerId="PyDebugRunner" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
@@ -261,12 +280,14 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Python.PyArdComm_27" />
+      <item index="1" class="java.lang.String" itemvalue="Python.test" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Python.PyArdComm_27" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Python.test" />
+        <item index="1" class="java.lang.String" itemvalue="Python.PyArdComm_27" />
       </list>
     </recent_temporary>
   </component>
@@ -318,6 +339,24 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/PyArdComm_27.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="24" selection-start="1312" selection-end="1312" vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="2805">
+          <folding>
+            <element signature="e#25#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PyArdComm_27.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="101" column="24" selection-start="2800" selection-end="2800" vertical-scroll-proportion="0.0" vertical-offset="1649" max-vertical-offset="2805">
+          <folding>
+            <element signature="e#25#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PyArdComm_27.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="66" column="0" selection-start="1625" selection-end="1625" vertical-scroll-proportion="0.0" vertical-offset="595" max-vertical-offset="1377">
           <folding>
             <element signature="e#25#38#0" expanded="true" />
@@ -336,21 +375,24 @@
     </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1142" column="0" selection-start="47510" selection-end="47510" vertical-scroll-proportion="0.33333334" vertical-offset="18156" max-vertical-offset="25024">
-          <folding />
-        </state>
+        <state line="1142" column="0" selection-start="47510" selection-end="47510" vertical-scroll-proportion="0.33333334" vertical-offset="18156" max-vertical-offset="25024" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/default_init.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="2" selection-start="18" selection-end="18" vertical-scroll-proportion="0.02367688" vertical-offset="0" max-vertical-offset="718">
+        <state line="1" column="2" selection-start="18" selection-end="18" vertical-scroll-proportion="0.02367688" vertical-offset="0" max-vertical-offset="718" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="34" selection-start="159" selection-end="159" vertical-scroll-proportion="0.14206128" vertical-offset="0" max-vertical-offset="718">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PyArdComm_27.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="101" column="24" selection-start="2800" selection-end="2800" vertical-scroll-proportion="0.33704737" vertical-offset="1475" max-vertical-offset="2805">
+        <state line="52" column="24" selection-start="1312" selection-end="1312" vertical-scroll-proportion="0.4735376" vertical-offset="544" max-vertical-offset="2805">
           <folding>
             <element signature="e#25#38#0" expanded="true" />
           </folding>

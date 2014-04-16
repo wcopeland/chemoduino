@@ -50,7 +50,7 @@ def CheckSyntax(text):
     argument_lists = {'-get':['-wpin', '-rpin', '-power', '-pfreq', '-pwid'],
                       '-set':['-wpin', '-rpin', '-power', '-pfreq', '-pwid'],
                       '-start':['-cont', '-auto', '-pulse'],
-                      'stop':[''],
+                      '-stop':[''],
                       '-exec':[''],
                       '-help':[''],}
     command_list = [k for k in argument_lists]
